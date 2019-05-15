@@ -1,5 +1,5 @@
 const mySearch = new Search.default({
-    url: 'http://showcase.funnelback.com/s/search.json',
+    url: 'https://showcase.funnelback.com/s/search.json',
     collections: ['showcase-faceted-navigation'],
     additionalFBparams: {
       profile: '_default',
