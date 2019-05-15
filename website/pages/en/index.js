@@ -156,9 +156,7 @@ class Index extends React.Component {
             title: `[Read documentation](${docUrl('installation')})`,
           },
           {
-            content: `If you want to develop FBJS or check details of the library you can check it on Squiz Gitlab
-
-[Go to repository](${siteConfig.repositoryUrl})`,
+            content: 'If you want to check details of the library you can go to `global/lib` repository.',
             image: `${baseUrl}img/icon-search.svg`,
             imageAlign: 'top',
             title: `[Go to repository](${siteConfig.repositoryUrl})`,

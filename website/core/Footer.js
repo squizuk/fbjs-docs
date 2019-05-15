@@ -49,42 +49,11 @@ class Footer extends React.Component {
             </a>
           </div>
           <div>
-            <h5>Community</h5>
-            <a href={this.pageUrl('users.html')}>
-              Projects Showcase
-            </a>
-            <a
-              href="https://gitlab.squiz.net/global/fbjs"
-              target="_blank"
-              rel="noreferrer noopener">
-              Git Repository (Dev)
-            </a>
-            <a
-              href="https://gitlab.squiz.net/global/lib"
-              target="_blank"
-              rel="noreferrer noopener">
-              Git Repository (Prod)
-            </a>
-          </div>
-          <div>
             <h5>More</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Changelog</a>
             <a href="mailto:achatys@squiz.co.uk">Contact</a>
           </div>
         </section>
-
-        <a
-          href="https://opensource.facebook.com/"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="fbOpenSource">
-          <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
-            width="170"
-            height="45"
-          />
-        </a>
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );

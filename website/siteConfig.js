@@ -36,7 +36,7 @@ const siteConfig = {
   title: 'FBJS', // Title for your website.
   tagline: 'Documentation and tutorials for Funnelback Search JS Library',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
-  repositoryUrl: 'https://gitlab.squiz.net/global/fbjs',
+  repositoryUrl: '',
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',

@@ -27,11 +27,11 @@ function Help(props) {
       title: 'Browse Docs',
     },
     {
-      content: 'Getting <a href="https://gitlab.squiz.net/global/fbjs" target="_blank">familiar with core files of FBJS</a> might help you understaning how it works.',
+      content: 'Getting familiar with core files of FBJS might help you understaning how it works. You can find them in `global/fbjs` repository.',
       title: 'Check repository',
     },
     {
-      content: "If you have any questions, consider asking them through <a href='https://stackoverflow.com/c/squiz/questions' target='_blank'>Squiz StackOverflow</a> with #fbjs tag",
+      content: "If you have any questions, consider asking them through our StackOverflow with `#fbjs` tag",
       title: 'Have a question?',
     },
   ];
