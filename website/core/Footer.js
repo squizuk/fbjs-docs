@@ -38,7 +38,7 @@ class Footer extends React.Component {
           <div>
             <h5>Docs</h5>
             <a href={this.docUrl('installation')}>
-              Getting Starter
+              Getting Started
             </a>
             <a href={this.docUrl('overview')}>
               Configuration
