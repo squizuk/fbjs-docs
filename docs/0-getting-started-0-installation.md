@@ -12,7 +12,7 @@ If you are using some boilerplate to cut-up your project you should copy the fil
 
 > Keep in mind, you should not inject it into your production js script. [Read about using FBJS in Matrix CMS](#installing-fbjs-in-matrix-cms)
 
-1. Download FBJS from [here](https://gitlab.squiz.net/global/lib/raw/master/fbjs/v1/fbjs-stable.js) and place it inside of your repository
+1. Download FBJS from `global/lib` respository and place it inside of your repository
 2. Put a script tag with FBJS above your main js script in footer of website.
 
 ## Installing FBJS in Matrix CMS
@@ -23,7 +23,7 @@ If you are using Matrix CMS to implement search engine results page with FBJS yo
 
 1. Create Git Bridge in Matrix CMS
 2. Add Matrix's public key to Deploy Keys in Gitlab Repository.
-3. Add [git@gitlab.squiz.net:global/lib.git](git@gitlab.squiz.net:global/lib.git) repository to Git Bridge.
+3. Add `global/lib` repository to Git Bridge.
 3. Pull `fbjs` folder from repository inside of Git Bridge.
 4. Put the script tag with library from repository above main js script.
 

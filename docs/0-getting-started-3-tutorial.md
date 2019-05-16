@@ -7,7 +7,7 @@ This is simple tutorial, showing step by step how to set up basic FBJS search pa
 
 ## Step 1: Download FBJS
 
-1. Download FBJS from [here](https://gitlab.squiz.net/global/lib/raw/master/fbjs/v1/fbjs-stable.js) and place it inside of your repository.
+1. Download FBJS from `global/lib` respository and place it inside of your repository.
 2. Put a script tag with FBJS above your main js script in footer of website.
 
 Example
@@ -93,8 +93,8 @@ Example
 ```js
 // rest of JS file
 const mySearch = new Search.default({
-  url: 'https://ei.funnelback.co.uk/s/search.json',
-  collections: ['ei-toolbox-content'],
+  url: 'https://showcase.funnelback.co.uk/s/search.json',
+  collections: ['showcase-faceted-navigation'],
   additionalFBparams: {
     profile: '_default',
   },
