@@ -34,6 +34,11 @@ In next chapters, you will learn about each of the fields that you may use for y
 | [`pagination > dots`](1-configuration-4-pagination.md#dots-show-dots-between-pages) | `boolean` | `true`   | no       |
 | [`pagination > edgePages`](1-configuration-4-pagination.md#edgepages-show-first-and-last-page-if-there-s-a-lot-of-pages) | `boolean` | `true`   | no       |
 | [`pagination > pages`](1-configuration-4-pagination.md#pages-amount-of-pages-on-sides-of-active-page) | `number` | `2`   | no       |
+| **Scroll** | | | |
+| [`scroll > enable`](1-configuration-5-scroll.md#enable-decide-if-you-want-to-use-the-feature)         | `boolean` | `false`        	    | no       |
+| [`scroll > target`](1-configuration-5-scroll.md#target-fbjs-will-scroll-up-to-the-top-of-target-element)         | `string` | `'.results'`        	    | no       |
+| [`scroll > offset`](1-configuration-5-scroll.md#offset-offset-on-scroll)         | `string` | `'50'`        	    | no       |
+| [`scroll > animation`](1-configuration-5-scroll.md#animation-type-of-animation)         | `string` | `'smooth'`        	    | no       |
 | **Information** | | | |
 | [`information > target`](1-configuration-5-information.md#target-location-of-results-in-dom)         | `string` | `'.information'`        	    | no       |
 | **Sort** | | | |
