@@ -19,7 +19,7 @@ _Read more about [adding new templates](2-templates-0-overview.md#adding-new-tem
 
 Template for all the checkbox facets.
 
-> You can add additional template to specific facet in configuration if you want one of the facets to be different from others. [Read more](1-configuration-9-facets.md#options-template-template-for-facet)
+> You can add additional template to specific facet in configuration if you want one of the facets to be different from others. [Read more](1-configuration-10-facets.md#options-template-template-for-facet)
 
 ### Parameters
 | Parameter 	  | Type 	     | Description |
@@ -68,7 +68,7 @@ facetCheckbox: ({
 
 Template for all the select facets.
 
-> You can add additional template to specific facet in configuration if you want one of the facets to be different from others. [Read more](1-configuration-9-facets.md#options-template-template-for-facet)
+> You can add additional template to specific facet in configuration if you want one of the facets to be different from others. [Read more](1-configuration-10-facets.md#options-template-template-for-facet)
 
 ### Parameters
 | Parameter 	  | Type 	     | Description |
@@ -113,9 +113,9 @@ If you want this template to be printed on search page, you need to include HTML
 
 > You can add additional `target` property to facet's configuration to place each facet in different location.
 
-##### [Read how to change default target class name](1-configuration-9-facets.md#target-location-of-results-in-dom)
+##### [Read how to change default target class name](1-configuration-10-facets.md#target-location-of-results-in-dom)
 
 ## Configuration properties important for the template
 
-1. [`Facets`](1-configuration-9-facets.md) - Read about configuration of pagination.
-2. [`Events`](1-configuration-15-events.md#onfiltersupdate-when-user-changes-filters) - Read about adding additional scripts after facet is selected
+1. [`Facets`](1-configuration-10-facets.md) - Read about configuration of pagination.
+2. [`Events`](1-configuration-16-events.md#onfiltersupdate-when-user-changes-filters) - Read about adding additional scripts after facet is selected

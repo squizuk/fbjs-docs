@@ -37,8 +37,8 @@ If you want this template to be printed on search page, you need to include HTML
 <div class="active-facets"></div>
 ```
 
-##### [Read how to change default target class name](1-configuration-10-active-facets.md#target-location-of-results-in-dom)
+##### [Read how to change default target class name](1-configuration-11-active-facets.md#target-location-of-results-in-dom)
 
 ## Configuration properties important for the template
 
-1. [`Active Facets`](1-configuration-10-active-facets.md) - Read about active facets.
+1. [`Active Facets`](1-configuration-11-active-facets.md) - Read about active facets.

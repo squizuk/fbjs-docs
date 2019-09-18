@@ -84,8 +84,8 @@ If you want this template to be printed on search page, you need to include HTML
 <div class="sort"></div>
 ```
 
-##### [Read how to change default target class name](1-configuration-6-sort.md#target-location-of-results-in-dom)
+##### [Read how to change default target class name](1-configuration-7-sort.md#target-location-of-results-in-dom)
 
 ## Configuration properties important for the template
 
-1. [`Sort`](1-configuration-6-sort.md) - Read about sorting of results
+1. [`Sort`](1-configuration-7-sort.md) - Read about sorting of results

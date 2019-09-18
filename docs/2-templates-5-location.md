@@ -74,8 +74,8 @@ If you want this template to be printed on search page, you need to include HTML
 <div class="location-form"></div>
 ```
 
-##### [Read how to change default target class name](1-configuration-8-location.md#target-location-of-results-in-dom)
+##### [Read how to change default target class name](1-configuration-9-location.md#target-location-of-results-in-dom)
 
 ## Configuration properties important for the template
 
-1. [`Location`](1-configuration-8-location.md) - Read about configuration of location form box.
+1. [`Location`](1-configuration-9-location.md) - Read about configuration of location form box.

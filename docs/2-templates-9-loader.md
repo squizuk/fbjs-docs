@@ -35,5 +35,5 @@ If you want this template to be printed on search page, you need to include HTML
 
 ## Configuration properties important for the template
 
-1. [`Loader`](1-configuration-12-loader.md) - Read about configuration of Loader.
+1. [`Loader`](1-configuration-13-loader.md) - Read about configuration of Loader.
 2. [`Results`](1-configuration-3-results.md) - Read about results, where you can change target class

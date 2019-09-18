@@ -44,4 +44,4 @@ If you want this template to be printed on search page, you need to include HTML
 ## Configuration properties important for the template
 
 1. [`Results`](1-configuration-3-results.md) - Read about configuration of results
-2. [`Sort`](1-configuration-6-sort.md) - Read about sorting of results
+2. [`Sort`](1-configuration-7-sort.md) - Read about sorting of results

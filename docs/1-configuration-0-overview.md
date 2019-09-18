@@ -40,38 +40,38 @@ In next chapters, you will learn about each of the fields that you may use for y
 | [`scroll > offset`](1-configuration-5-scroll.md#offset-offset-on-scroll)         | `string` | `'50'`        	    | no       |
 | [`scroll > animation`](1-configuration-5-scroll.md#animation-type-of-animation)         | `string` | `'smooth'`        	    | no       |
 | **Information** | | | |
-| [`information > target`](1-configuration-5-information.md#target-location-of-results-in-dom)         | `string` | `'.information'`        	    | no       |
+| [`information > target`](1-configuration-6-information.md#target-location-of-results-in-dom)         | `string` | `'.information'`        	    | no       |
 | **Sort** | | | |
-| [`sort > target`](1-configuration-6-sort.md#target-location-of-results-in-dom)         | `string` | `'.sort'`        	    | no       |
-| [`sort > type`](1-configuration-6-sort.md#type-default-sort-type)         | `string` | `'relevance'`        	    | no       |
+| [`sort > target`](1-configuration-7-sort.md#target-location-of-results-in-dom)         | `string` | `'.sort'`        	    | no       |
+| [`sort > type`](1-configuration-7-sort.md#type-default-sort-type)         | `string` | `'relevance'`        	    | no       |
 | **Search** | | | |
-| [`search > target`](1-configuration-7-search.md/#target-location-of-results-in-dom)         | `string` | `'.form'`        	    | no       |
-| [`search > inputId`](1-configuration-7-search.md/#inputid-id-of-the-main-search-input)         | `string` | `'search-queryinput'`        	    | no       |
-| [`search > resetFacets`](1-configuration-7-search.md/#resetfacets-resets-selected-facets-on-new-search)         | `boolean` | `true`        	    | no       |
+| [`search > target`](1-configuration-8-search.md/#target-location-of-results-in-dom)         | `string` | `'.form'`        	    | no       |
+| [`search > inputId`](1-configuration-8-search.md/#inputid-id-of-the-main-search-input)         | `string` | `'search-queryinput'`        	    | no       |
+| [`search > resetFacets`](1-configuration-8-search.md/#resetfacets-resets-selected-facets-on-new-search)         | `boolean` | `true`        	    | no       |
 | **Location** | | | |
-| [`location > target`](1-configuration-8-location.md#target-location-of-results-in-dom)         | `string` | `'.location-form'`        	    | no       |
-| [`location > inputId`](1-configuration-8-location.md#inputid-id-of-the-location-search-input)         | `string` | `'search-locationquery'`        	    | no       |
-| [`location > buttonId`](1-configuration-8-location.md#buttonid-id-of-the-button-for-current-location)    | `string` | `get-location-btn`        | no       |
-| [`location > maxDist`](1-configuration-8-location.md#maxdist-max-distance-of-result)         | `number` | `18000000`        	    | no       |
+| [`location > target`](1-configuration-9-location.md#target-location-of-results-in-dom)         | `string` | `'.location-form'`        	    | no       |
+| [`location > inputId`](1-configuration-9-location.md#inputid-id-of-the-location-search-input)         | `string` | `'search-locationquery'`        	    | no       |
+| [`location > buttonId`](1-configuration-9-location.md#buttonid-id-of-the-button-for-current-location)    | `string` | `get-location-btn`        | no       |
+| [`location > maxDist`](1-configuration-9-location.md#maxdist-max-distance-of-result)         | `number` | `18000000`        	    | no       |
 | **Facets** | | | |
-| [`facets > target`](1-configuration-9-facets.md#onfiltersupdate-when-user-changes-filters)         | `string` | `'.facets'`        	    | no       |
-| [`facets > items`](1-configuration-9-facets.md#onnoresultspageupdate-when-there-are-no-results-for-query)         | `array` | `[]`        	    | no       |
+| [`facets > target`](1-configuration-10-facets.md#onfiltersupdate-when-user-changes-filters)         | `string` | `'.facets'`        	    | no       |
+| [`facets > items`](1-configuration-10-facets.md#onnoresultspageupdate-when-there-are-no-results-for-query)         | `array` | `[]`        	    | no       |
 | **Active Facets** | | | |
-| [`activeFacets > target`](1-configuration-10-active-facets.md#target-location-of-results-in-dom)         | `string` | `'.active-facets'`        	    | no       |
+| [`activeFacets > target`](1-configuration-11-active-facets.md#target-location-of-results-in-dom)         | `string` | `'.active-facets'`        	    | no       |
 | **Contextual Navigation** | | | |
-| [`contextualNavigation > target`](1-configuration-11-contextualNavigation.md#target-location-of-results-in-dom)         | `string` | `'.context-nav'`        	    | no       |
-| [`contextualNavigation > items`](1-configuration-11-contextualNavigation.md#items-clusters-names) | `array of strings` | `[]` | no
+| [`contextualNavigation > target`](1-configuration-12-contextualNavigation.md#target-location-of-results-in-dom)         | `string` | `'.context-nav'`        	    | no       |
+| [`contextualNavigation > items`](1-configuration-12-contextualNavigation.md#items-clusters-names) | `array of strings` | `[]` | no
 | **Loader** | | | |
-| [`loader > target`](1-configuration-12-loader.md#target-location-of-results-in-dom)         | `string` | `'.results'`        	    | no       |
-| [`loader > class`](1-configuration-12-loader.md#class-css-class-attached-to-loader) | `string` | `'.loader-cloak'` | no
+| [`loader > target`](1-configuration-13-loader.md#target-location-of-results-in-dom)         | `string` | `'.results'`        	    | no       |
+| [`loader > class`](1-configuration-13-loader.md#class-css-class-attached-to-loader) | `string` | `'.loader-cloak'` | no
 | **Best Bets** | | | |
-| [`bestBets: target`](1-configuration-13-bestBets.md#target-location-of-results-in-dom)         | `string` | `'.best-bets'`        	    | no       |
+| [`bestBets: target`](1-configuration-14-bestBets.md#target-location-of-results-in-dom)         | `string` | `'.best-bets'`        	    | no       |
 | **No results** | | | |
-| [`noResults: target`](1-configuration-14-noResults.md#target-location-of-results-in-dom)         | `string` | `'.no-results'`        	    | no       |
+| [`noResults: target`](1-configuration-15-noResults.md#target-location-of-results-in-dom)         | `string` | `'.no-results'`        	    | no       |
 | **Events** | | | |
-| [`onFiltersUpdate`](1-configuration-15-events.md#onfiltersupdate-when-user-changes-filters)         | `function` | `() => {}`        	    | no       |
-| [`onNoResultsPageUpdate`](1-configuration-15-events.md#onnoresultspageupdate-when-there-are-no-results-for-query)         | `function` | `() => {}`        	    | no       |
-| [`onSearch`](1-configuration-15-events.md#onsearch-when-user-searches-for-query)         | `function` | `() => {}`        	    | no       |
+| [`onFiltersUpdate`](1-configuration-16-events.md#onfiltersupdate-when-user-changes-filters)         | `function` | `() => {}`        	    | no       |
+| [`onNoResultsPageUpdate`](1-configuration-16-events.md#onnoresultspageupdate-when-there-are-no-results-for-query)         | `function` | `() => {}`        	    | no       |
+| [`onSearch`](1-configuration-16-events.md#onsearch-when-user-searches-for-query)         | `function` | `() => {}`        	    | no       |
 
 #### Example of full default FBJS configuration
 

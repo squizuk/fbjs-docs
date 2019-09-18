@@ -45,9 +45,9 @@ If you want this template to be printed on search page, you need to include HTML
 <div class="context-nav"></div>
 ```
 
-##### [Read how to change default target class name](./contextualnavigation#target-location-of-results-in-dom)
+##### [Read how to change default target class name](1-configuration-12-contextualNavigation.md#target-location-of-results-in-dom)
 
 ## Configuration properties important for the template
 
-1. [`Contextual Navigation`](1-configuration-11-contextualNavigation.md) - Read about configuration of Contextual Navigation.
-2. [`Events`](1-configuration-15-events.md#onfiltersupdate-when-user-changes-filters) - Read about adding additional scripts after facet is selected
+1. [`Contextual Navigation`](1-configuration-12-contextualNavigation.md) - Read about configuration of Contextual Navigation.
+2. [`Events`](1-configuration-16-events.md#onfiltersupdate-when-user-changes-filters) - Read about adding additional scripts after facet is selected

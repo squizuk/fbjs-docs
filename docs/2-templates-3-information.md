@@ -38,8 +38,8 @@ If you want this template to be printed on search page, you need to include HTML
 <div class="information"></div>
 ```
 
-##### [Read how to change default target class name](1-configuration-5-information.md#target-location-of-results-in-dom)
+##### [Read how to change default target class name](1-configuration-6-information.md#target-location-of-results-in-dom)
 
 ## Configuration properties important for the template
 
-1. [`Information`](1-configuration-5-information.md) - Read about configuration of information box
+1. [`Information`](1-configuration-6-information.md) - Read about configuration of information box

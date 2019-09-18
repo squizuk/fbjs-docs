@@ -50,8 +50,8 @@ If you want this template to be printed on search page, you need to include HTML
 <div class="form"></div>
 ```
 
-##### [Read how to change default target class name](1-configuration-7-search.md#target-location-of-results-in-dom)
+##### [Read how to change default target class name](1-configuration-8-search.md#target-location-of-results-in-dom)
 
 ## Configuration properties important for the template
 
-1. [`Search`](1-configuration-7-search.md) - Read about configuration of search form
+1. [`Search`](1-configuration-8-search.md) - Read about configuration of search form

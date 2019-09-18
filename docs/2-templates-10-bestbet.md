@@ -37,8 +37,8 @@ If you want this template to be printed on search page, you need to include HTML
 <div class="best-bets"></div>
 ```
 
-##### [Read how to change default target class name](1-configuration-13-bestBets.md#target-location-of-results-in-dom)
+##### [Read how to change default target class name](1-configuration-14-bestBets.md#target-location-of-results-in-dom)
 
 ## Configuration properties important for the template
 
-1. [`Best Bets`](1-configuration-13-bestBets.md) - Read about best bets.
+1. [`Best Bets`](1-configuration-14-bestBets.md) - Read about best bets.
