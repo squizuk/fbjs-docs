@@ -31,7 +31,7 @@ If you want this template to be printed on search page, you need to include HTML
 
 > Loader is attached to HTML class of results, so make sure not to duplicate it!
 
-##### [Read how to change default target class name](1-configuration-11-contextualNavigation.md#target-location-of-results-in-dom)
+##### [Read how to change default target class name](1-configuration-12-contextualNavigation.md#target-location-of-results-in-dom)
 
 ## Configuration properties important for the template
 
