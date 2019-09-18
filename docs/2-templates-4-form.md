@@ -40,6 +40,8 @@ formTemplate: (search, query, inputId) => {
 },
 ```
 
+> Make sure you are not using `name="query"` for your search input. Use any other name, otherwise FBJS will not work properly.
+
 ## HTML
 
 If you want this template to be printed on search page, you need to include HTML DOM element on your page. By default the class for that part of search is `.form` and should be used as long as you won't change it inside of configuration.
