@@ -11,9 +11,10 @@ There are few functions that are initialized on particular events. Thanks to tha
 
 | Parameter 	  | Type 	     | Default value 	| Required 	|
 |-------------	|----------- |--------------	|----------	|
-| [`onFiltersUpdate`](#onfiltersupdate-when-user-changes-filters)         | `function` | `() => {}`        	    | no       |
+| [`onFiltersUpdate`](#onfiltersupdate-when-user-changes-filters)                               | `function` | `() => {}`        	    | no       |
 | [`onNoResultsPageUpdate`](#onnoresultspageupdate-when-there-are-no-results-for-query)         | `function` | `() => {}`        	    | no       |
-| [`onSearch`](#onsearch-when-user-searches-for-query)         | `function` | `() => {}`        	    | no       |
+| [`onSearch`](#onsearch-when-user-searches-for-query)                                          | `function` | `() => {}`        	    | no       |
+| [`beforeSearch`](#onsearch-when-user-searches-for-query)                                      | `function` | `() => {}`        	    | no       |
 
 ```js
 const mySearch = new Search.default({
@@ -21,6 +22,7 @@ const mySearch = new Search.default({
     onFiltersUpdate: () => {},
     onNoResultsPageUpdate: () => {},
     onSearch: () => {},
+    beforeSearch: () => {},
     // ... some other configuration fields
 });
 
@@ -80,6 +82,26 @@ const mySearch = new Search.default({
     // ... some configuration fields
     onSearch: () => {
         clearQueryFromSearchInput.init(); // you can run some external functions here
+    },
+    // ... some other configuration fields
+});
+
+mySearch.init();
+```
+
+## `beforeSearch` - before user searches for query
+
+Each time user will search for new query, this function will be initialized before fetch.
+
+| Parameter 	         | Type 	  | Default value | Required  |
+|----------------------- |----------- |-------------- |---------- |
+| `beforeSearch`         | `function` | `() => {}`    | no        |
+
+```js
+const mySearch = new Search.default({
+    // ... some configuration fields
+    beforeSearch: () => {
+        mySearch.configUpdate('sort', 'relevance'); // you can run some external functions here
     },
     // ... some other configuration fields
 });
